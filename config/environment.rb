@@ -22,8 +22,8 @@ Rails::Initializer.run do |config|
   config.gem 'mongo_mapper'
   config.gem 'warden'
   config.gem 'devise'
-  config.gem 'haml'
-  config.gem 'compass'
+  config.gem "haml"
+  config.gem "compass", :version => ">= 0.10.1"
   
 
   # Only load the plugins named here, in the order given (default is alphabetical).

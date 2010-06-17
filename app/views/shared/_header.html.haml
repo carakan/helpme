@@ -1,0 +1,15 @@
+#header
+  %h1.logo
+    %a{:href => "/", :title => "Events Crowd sourcing international"}
+      %span.n Events Crowd sourcing international
+  #menu
+    %ul
+      %li.home
+        = link_active('Home', {:action => 'index', :controller => 'pages'})
+      %li.events
+        = link_active('Events', {:action => 'events', :controller => 'pages'})
+      %li.aboutCsi
+        = link_active('about CSI', {:action => 'about', :controller => 'pages'})
+      %li.contact
+        = link_active('Contact Us', {:action => 'contact', :controller => 'pages'})
+  %br.clear/
